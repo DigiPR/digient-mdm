@@ -12,12 +12,12 @@ public class Policy {
     private String carId;
     private String status;
     private String risk;
-    private Integer retention;
+    private Long retention;
 
     public Policy() {
     }
 
-    public Policy(String pId, String cId, String aId, String pDate, String productId, String carId, String status, String risk, Integer retention) {
+    public Policy(String pId, String cId, String aId, String pDate, String productId, String carId, String status, String risk, Long retention) {
         super();
         this.pId = pId;
         this.cId = cId;
@@ -94,11 +94,11 @@ public class Policy {
         this.risk = risk;
     }
 
-    public Integer getRetention() {
+    public Long getRetention() {
         return retention;
     }
 
-    public void setRetention(Integer retention) {
+    public void setRetention(Long retention) {
         this.retention = retention;
     }
 

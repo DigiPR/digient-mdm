@@ -9,19 +9,19 @@ public class Application {
     private String aDate;
     private String productId;
     private String carId;
-    private Integer age;
-    private Integer kw;
+    private Long age;
+    private Long kw;
     private Boolean licenseRevocation;
-    private Integer carPrice;
+    private Long carPrice;
     private String status;
     private String decision;
     private String risk;
-    private Integer retention;
+    private Long retention;
 
     public Application() {
     }
 
-    public Application(String aId, String cId, String aDate, String productId, String carId, Integer age, Integer kw, Boolean licenseRevocation, Integer carPrice, String status, String decision, String risk, Integer retention) {
+    public Application(String aId, String cId, String aDate, String productId, String carId, Long age, Long kw, Boolean licenseRevocation, Long carPrice, String status, String decision, String risk, Long retention) {
         super();
         this.aId = aId;
         this.cId = cId;
@@ -78,19 +78,19 @@ public class Application {
         this.carId = carId;
     }
 
-    public Integer getAge() {
+    public Long getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(Long age) {
         this.age = age;
     }
 
-    public Integer getKw() {
+    public Long getKw() {
         return kw;
     }
 
-    public void setKw(Integer kw) {
+    public void setKw(Long kw) {
         this.kw = kw;
     }
 
@@ -102,11 +102,11 @@ public class Application {
         this.licenseRevocation = licenseRevocation;
     }
 
-    public Integer getCarPrice() {
+    public Long getCarPrice() {
         return carPrice;
     }
 
-    public void setCarPrice(Integer carPrice) {
+    public void setCarPrice(Long carPrice) {
         this.carPrice = carPrice;
     }
 
@@ -134,11 +134,11 @@ public class Application {
         this.risk = risk;
     }
 
-    public Integer getRetention() {
+    public Long getRetention() {
         return retention;
     }
 
-    public void setRetention(Integer retention) {
+    public void setRetention(Long retention) {
         this.retention = retention;
     }
 
