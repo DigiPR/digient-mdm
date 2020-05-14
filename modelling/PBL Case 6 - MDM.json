@@ -1,0 +1,52 @@
+{
+  "customer": {
+    "cId": "c-100-001",
+    "cName": "Melinda Miller",
+    "email": "melinda@miller.com"
+  },
+  "application": {
+    "aId": "a-100-001",
+    "cId": "c-100-001",
+    "aDate": "2016-01-01T22:28:56.742Z",
+    "productId": "Car",
+    "carId": "BL-100",
+    "age": 20,
+    "kw": 150,
+    "licenseRevocation": false,
+    "carPrice": 40000,
+    "status": [
+      "open",
+      "closed"
+    ],
+    "decision": [
+      "unknown",
+      "accept",
+      "reject"
+    ],
+    "risk": [
+      "unknown",
+      "high",
+      "medium",
+      "low"
+    ],
+    "retention": 5000
+  },
+  "policy": {
+    "pId": "p-100-001",
+    "cId": "c-100-001",
+    "aId": "a-100-001",
+    "pDate": "2016-01-02T23:28:56.742Z",
+    "productId": "Car",
+    "carId": "BL-100",
+    "status": [
+      "issued",
+      "active",
+      "deactivated"
+    ],
+    "risk": [
+      "medium",
+      "low"
+    ],
+    "retention": 5000
+  }
+}
