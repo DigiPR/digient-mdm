@@ -4,7 +4,9 @@ spring:
   cloud:
     stream:
       bindings:
-        input:
-          destination: insurance
+        input-insurance-mdm:
+          destination: insurance-mdm
           content-type: application/json
+          group: insurance-mailing-group
+          durableSubscription: true
       default-binder: rabbit
