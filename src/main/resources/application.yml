@@ -7,6 +7,6 @@ spring:
         input-insurance-mdm:
           destination: insurance-mdm
           content-type: application/json
-          group: insurance-mailing-group
+          group: insurance-mdm-group
           durableSubscription: true
       default-binder: rabbit
