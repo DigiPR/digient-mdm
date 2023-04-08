@@ -1,4 +1,7 @@
 # MDM Microservice
 
-## 1. Deploy Microservice on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DigiPR/digient-mdm)
+## 1. Deploy Microservice to Render
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/DigiPR/digient-mdm))
+
+## or deploy Microservice to Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DigiPR/digient-mdm))
